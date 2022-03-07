@@ -93,7 +93,7 @@ textarea {
   margin-bottom: 3.5rem;
   position: relative; }
   .heading-sec__main--lt {
-    color: #fff; }
+    color: #67b174; }
     .heading-sec__main--lt::after {
       content: '';
       background: #fff !important; }
@@ -124,7 +124,7 @@ textarea {
     .heading-sec__sub {
       font-size: 1.8rem; } }
   .heading-sec__sub--lt {
-    color: #eee; }
+    color: white; }
 
 .heading-sm {
   font-size: 2.2rem;
@@ -145,7 +145,7 @@ textarea {
   font-weight: 700;
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
-  transition: transform .3s; }
+  transition: all .3s; }
   .btn:hover {
     transform: translateY(-3px); }
   .btn--bg {
@@ -412,6 +412,12 @@ textarea {
     @media only screen and (max-width: 37.5em) {
       .contact__btn {
         width: 100%; } }
+   .contact__btn:hover, .contact__btn:focus-visible {
+      background-color:#67b174;
+   }
+   .contact__btn:active {
+      transform: scale(.99);
+   }
 
 .project-cs-hero {
   color: #fff;
@@ -630,22 +636,31 @@ textarea {
     padding: 8rem 0; }
     @media only screen and (max-width: 56.25em) {
       .main-footer__upper {
-        padding: 6rem 0; } }
+        padding: 6rem 0;
+        text-align: center; } }
     @media only screen and (max-width: 37.5em) {
       .main-footer__upper {
-        display: block; } }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; } }
   .main-footer__row-1 {
     order: 2; }
     @media only screen and (max-width: 56.25em) {
       .main-footer__row-1 {
-        margin-bottom: 5rem; } }
+        text-align: center; } }
+    @media only screen and (max-width: 56.25em) {
+    .main-footer__social-cont {
+        display: flex; } }
   .main-footer__row-2 {
     width: 40%;
     order: 1;
     max-width: 50rem; }
     @media only screen and (max-width: 56.25em) {
       .main-footer__row-2 {
-        width: 100%; } }
+        margin-bottom: 5rem;
+        width: 100%;
+  } }
   .main-footer__short-desc {
     margin-top: 2rem;
     color: #eee;
