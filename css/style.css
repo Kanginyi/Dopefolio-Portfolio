@@ -93,10 +93,10 @@ textarea {
   margin-bottom: 3.5rem;
   position: relative; }
   .heading-sec__main--lt {
-    color: #67b174; }
+    color: black; }
     .heading-sec__main--lt::after {
       content: '';
-      background: #fff !important; }
+      background: #67B174 !important; }
   .heading-sec__main::after {
     content: '';
     position: absolute;
@@ -146,11 +146,15 @@ textarea {
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: all .3s; }
-  .btn:hover {
-    transform: translateY(-3px); }
+  .btn:hover, .btn:focus-visible {
+    transform: translateY(-3px);
+    background-color:#67b174;}
   .btn--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem; }
+  .btn--bg:hover, .btn--bg:focus-visible {
+     color: white;
+  }
   .btn--med {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
@@ -412,9 +416,6 @@ textarea {
     @media only screen and (max-width: 37.5em) {
       .contact__btn {
         width: 100%; } }
-   .contact__btn:hover, .contact__btn:focus-visible {
-      background-color:#67b174;
-   }
    .contact__btn:active {
       transform: scale(.99);
    }
@@ -531,8 +532,6 @@ textarea {
     cursor: pointer;
     color: #333;
     transition: color .3s; }
-    .header__logo-container:hover {
-      color: #BAD6BF; }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
@@ -558,7 +557,10 @@ textarea {
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    color: #BAD6BF; }
+   .header__logo-sub:hover {
+    color: #67B174; }
   .header__links {
     display: flex; }
     @media only screen and (max-width: 37.5em) {
@@ -572,7 +574,7 @@ textarea {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
-    transition: color .3s; }
+    transition: all .3s; }
     .header__link:hover {
       color: #BAD6BF; }
     @media only screen and (max-width: 56.25em) {
