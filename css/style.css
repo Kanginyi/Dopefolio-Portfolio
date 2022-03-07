@@ -685,21 +685,28 @@ textarea {
    transform: scale(.95);
 }
 
-/* .main-footer__icon:hover, .main-footer__icon:focus-visible {
-   background-color: gray;
-   padding: 1.5px;
-   border-radius: 50%;
-} */
-
 .main-footer__icon {
-   background-color: gray;
-   padding: 2.5px;
    border-radius: 50%;
+}
+
+.linkedin-hover:hover, .linkedin-hover:focus-visible {
+   background-color: #0077B5;
+}
+
+.github-hover:hover, .github-hover:focus-visible {
+   background-color: #FFAAB9;
+}
+
+.medium-hover:hover, .medium-hover:focus-visible {
+   background-color: #999999;
+}
+
+.insta-hover:hover, .insta-hover:focus-visible {
+   background: linear-gradient(to top right, orange, #E4405F);
 }
 
 .skills {
   display: flex;
-  /* justify-content: center; */
   flex-wrap: wrap; }
   @media only screen and (max-width: 56.25em) {
    .skills {
