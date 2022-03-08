@@ -696,6 +696,10 @@ textarea {
    color: #BAD6BF;
 }
 
+.main-footer__lower a:hover {
+   color: #67B174;
+}
+
 .main-footer__icon:active {
    transform: scale(.95);
 }
@@ -783,8 +787,20 @@ textarea {
    background-color: #284B91 !important;
 }
 
-.spacenook-background {
+.spacenook-main-background {
    background: linear-gradient(to right, rgba(145, 181, 255, 0.8), rgba(145, 181, 255, 0.8)), url(../assets/svg/common-bg.svg) !important;
+}
+
+.spacenook-link:hover, .spacenook-secondary {
+   color: rgb(145, 181, 255) !important;
+}
+
+.spacenook-secondary:hover {
+   color: #4267B2 !important;
+}
+
+.spacenook-background {
+   background: rgb(145, 181, 255) !important;
 }
 
 @keyframes wheel {
