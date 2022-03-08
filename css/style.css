@@ -148,7 +148,8 @@ textarea {
   transition: all .3s; }
   .btn:hover, .btn:focus-visible {
     transform: translateY(-3px);
-    background-color:#67b174;}
+    background-color:#67B174;
+    color: white; }
   .btn--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem; }
@@ -161,12 +162,6 @@ textarea {
   .btn--theme {
     background: #BAD6BF;
     color: #fff; }
-  .btn--theme-inv {
-    color: #BAD6BF;
-    background: #fff;
-    border: 2px solid #BAD6BF;
-    box-shadow: none;
-    padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
 .sec-pad {
   padding: 12rem 0; }
@@ -510,6 +505,9 @@ textarea {
       @media only screen and (max-width: 37.5em) {
         .project-details__links-btn:last-child {
           margin: 0; } }
+.project-details__links-btn:active {
+   transform: scale(.97);
+}
 
 .header {
   position: fixed;
@@ -758,6 +756,19 @@ textarea {
     opacity: 1;
     animation: wheel 1.3s infinite;
     -webkit-animation: wheel 1.3s infinite; }
+
+.greenit {
+   color: rgb(0, 173, 76) !important;
+}
+
+.greenit-button {
+   background-color: rgb(0, 173, 76) !important;
+   color: white !important;
+}
+
+.greenit-button:hover, .greenit-button:focus-visible {
+   background-color: rgb(0, 136, 59) !important;
+}
 
 @keyframes wheel {
   to {
