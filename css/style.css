@@ -758,16 +758,29 @@ textarea {
     -webkit-animation: wheel 1.3s infinite; }
 
 .greenit {
-   color: rgb(0, 173, 76) !important;
+   color: #00AD4C !important;
 }
 
 .greenit-button {
-   background-color: rgb(0, 173, 76) !important;
+   background-color: #00AD4C !important;
    color: white !important;
 }
 
 .greenit-button:hover, .greenit-button:focus-visible {
-   background-color: rgb(0, 136, 59) !important;
+   background-color: #00883B !important;
+}
+
+.spacenook {
+   color: #4267B2 !important;
+}
+
+.spacenook-button {
+   background-color: #4267B2 !important;
+   color: white;
+}
+
+.spacenook-button:hover, .spacenook-button:focus-visible {
+   background-color: #284B91 !important;
 }
 
 @keyframes wheel {
