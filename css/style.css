@@ -246,7 +246,8 @@ textarea {
     text-align: center; }
 
 .about {
-  background: #fafafa; }
+  background: #fafafa;
+  padding-bottom: 13.1rem; }
   .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -801,6 +802,35 @@ textarea {
 
 .spacenook-background {
    background: rgb(145, 181, 255) !important;
+}
+
+.love-letter {
+   color: rgb(255, 130, 150) !important;
+}
+
+.love-letter-button {
+   background-color: rgb(255, 130, 150) !important;
+   color: white;
+}
+
+.love-letter-button:hover, .love-letter-button:focus-visible {
+   background-color: rgb(255, 110, 135) !important;
+}
+
+.love-letter-main-background {
+   background: linear-gradient(to right, rgba(255, 215, 225, 0.8), rgba(255, 215, 225, 0.8)), url(../assets/svg/common-bg.svg) !important;
+}
+
+.love-letter-link:hover, .love-letter-secondary {
+   color: rgb(255, 215, 225) !important; 
+}
+
+.love-letter-secondary:hover {
+   color: rgb(255, 130, 150) !important; 
+}
+
+.love-letter-background {
+   background: rgb(255, 215, 225) !important; 
 }
 
 @keyframes wheel {
