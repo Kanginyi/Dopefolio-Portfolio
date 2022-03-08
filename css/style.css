@@ -135,6 +135,9 @@ textarea {
   max-width: 120rem;
   margin: auto;
   width: 92%; }
+  @media only screen and (max-width: 37.5em) {
+   .main-container {
+     text-align: center; } }
 
 .btn {
   background: #fff;
@@ -475,6 +478,9 @@ textarea {
     line-height: 1.7;
     color: grey;
     margin-bottom: 2rem; }
+   @media only screen and (max-width: 37.5em) {
+   .para-left {
+      text-align: left;} }
 
 .project-details__tools-used {
   margin: 0 0 7rem 0; }
