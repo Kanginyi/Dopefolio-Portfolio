@@ -783,6 +783,10 @@ textarea {
    background-color: #284B91 !important;
 }
 
+.spacenook-background {
+   background: linear-gradient(to right, rgba(145, 181, 255, 0.8), rgba(145, 181, 255, 0.8)), url(../assets/svg/common-bg.svg) !important;
+}
+
 @keyframes wheel {
   to {
     opacity: 0;
