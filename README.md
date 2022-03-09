@@ -16,8 +16,6 @@ You can find more information about the author here:
 - **[Twitter](https://twitter.com/rammcodes)**
 - **[Portfolio](https://rammaheshwari.com)** 
 
-<br>
-
 ## License 📄
 
 This project is licensed under the  **GPL-3.0** License - see the [LICENSE](LICENSE) file for details
