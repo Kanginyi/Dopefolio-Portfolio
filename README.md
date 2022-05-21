@@ -1,5 +1,11 @@
 # Dopefolio Portfolio
 
+## Live Link
+
+`Ctrl` + `Left Click` to open in a new tab!
+
+https://eric-yi.netlify.app/
+
 ## Credits
 
 Shoutout to **Ram Maheshwari** for creating the portfolio template!
